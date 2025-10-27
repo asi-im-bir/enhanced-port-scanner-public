@@ -5,8 +5,7 @@ This repository is for **educational purposes only**. Demo materials are restric
 Do **not** scan systems you do not own or do not have explicit written permission to test.
 
 ---
-
-## 🎯 One-line Summary  
+## 🎯 Summary  
 Small educational TCP port scanner (demo-only). Demonstrates socket programming, input validation, and safe-by-default design; public demo restricted to `127.0.0.1`.
 
 ![Educational demo — localhost only](demo.gif)
@@ -35,9 +34,17 @@ The full implementation is available **on request** (private branch/repo for int
 
 ---
 
-## 👩‍💻 From a Security Engineer’s Perspective — How I’d Use This Project
+## ⚙️ Future Enhancements
+- Structured JSON/CSV output for SIEM or CMDB ingestion  
+- RBAC and audit logging for governed scanning  
+- Service banner fingerprinting (authorized only)  
+- Automatic correlation with CVE databases  
+- Auto-ticket generation and compliance dashboard
 
-> As a future Security Engineer, this tool forms the foundation for several operational and compliance improvements.
+---
+## 👩‍💼  How I’d Operationalize This Project in the future
+
+>This tool forms the foundation for several operational and compliance improvements.
 
 | Security Objective | How I’d Apply It |
 |---------------------|-----------------|
@@ -50,29 +57,45 @@ The full implementation is available **on request** (private branch/repo for int
 | **Awareness & Training** | Use the demo to educate Dev/IT teams on exposure risk and remediation |
 
 ---
+### 🔗 Related GRC Project — My Extended Work
 
-## ⚙️ Future Enhancements
-- Structured JSON/CSV output for SIEM or CMDB ingestion  
-- RBAC and audit logging for governed scanning  
-- Service banner fingerprinting (authorized only)  
-- Automatic correlation with CVE databases  
-- Auto-ticket generation and compliance dashboard
-
----
-
-## 🔗 Related Project (Reference)
 **GRC Config Auditor — Configuration Drift & Shadow IT Auditor**  
-Companion GRC tool that reconciles the CMDB baseline with network reality (detects config drift, ghost assets, and shadow IT).  
-It extends the port-scanner’s logic for GRC evidence generation aligned with ISO 27001 and NIS2.  
-**Code available on request.**
+This project extends my original scanner framework into a GRC automation tool that reconciles CMDB baselines with network reality.  
+It detects configuration drift, ghost assets, and shadow IT, and produces audit-ready evidence mapped to ISO 27001 and NIS2 controls.  
+Together, both projects form a continuous loop:  
+**Discovery → Validation → Compliance → Governance.**
 
 ---
 
-## 📬 Contact & Access  
-Full implementation available for authorized technical review or interviews.  
-Contact: [github.com/asi-im-bir](https://github.com/asi-im-bir)
+## 🧭 Project Evolution Map — From Technical Security to GRC Automation
+
+> How my projects evolved from hands-on technical security to full GRC engineering alignment.
+
+| **Phase** | **Project** | **Technical Focus** | **GRC / Security Engineering Outcome** |
+|:--:|:--|:--|:--|
+| **1** | 🧩 *Enhanced Port Scanner* | Core networking, socket programming, validation, logging, and safe demo execution. | Foundation for automated asset discovery and configuration verification. |
+| **2** | ⚙️ *GRC Config Auditor* | CMDB reconciliation using `pandas`, drift analytics, and shadow IT detection. | Automated CMDB integrity checks and audit-ready ISO/NIS2 evidence. |
+| **3** | 🧠 *GRC Engineering Framework* | Exception handling, risk scoring, evidence export, and dashboards. | Continuous monitoring and compliance automation foundation. |
 
 ---
 
-## 🪪 License  
-MIT License © 2025 asi-im-bir  
+### 🚀 Strategic Impact
+
+- **Bridges SecOps and Governance:** Turns technical findings into measurable compliance evidence.  
+- **Automates Trust:** Reduces manual audit prep through continuous verification.  
+- **Builds Maturity:** Shows growth from tool-building → process automation → governance-integrated engineering.
+
+---
+
+### 📬 Contact & Controlled Access
+
+Full implementations and demo environments are available for authorized technical review or audits.  
+📎 [github.com/asi-im-bir](https://github.com/asi-im-bir)  
+or contact via corporate email for private access.
+
+---
+
+### 🪪 License
+MIT License © 2025 asi-im-bir
+
+--- 
