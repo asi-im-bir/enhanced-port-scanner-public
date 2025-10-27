@@ -1,0 +1,11 @@
+# Logs & environment
+enhanced_port_scanner.log
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# OS / editors
+.vscode/
+.DS_Store
