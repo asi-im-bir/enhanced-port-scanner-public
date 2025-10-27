@@ -7,6 +7,7 @@ Do not scan systems you do not own or have explicit written permission to test.
 </small>
 
 ---
+<img width="1622" height="4674" alt="image" src="https://github.com/user-attachments/assets/ad8534d7-bbf5-4515-9e37-4572baa2114c" />
 
 **<small>🎯 Summary</small>**  
 <small>Small educational TCP port scanner (demo-only). Demonstrates socket programming, input validation, and safe-by-default design. Public demo restricted to 127.0.0.1.</small>
